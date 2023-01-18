@@ -1,0 +1,54 @@
+.action-item {
+    align-items: center;
+    float: left;
+}
+
+.action-item button {
+    margin: 0 8px;
+}
+
+.btn-danger {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #31d2f2;
+    border-color: #25cff2;
+}
+
+.ant-table-pagination.ant-pagination {
+    margin: 16px 0;
+}
+
+.ant-table-pagination-right {
+    justify-content: flex-end;
+}
+
+.ant-table-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+
+.ant-pagination {
+    box-sizing: border-box;
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+}
+.btn{
+    width: 100px;
+    margin-left: 50px;
+}

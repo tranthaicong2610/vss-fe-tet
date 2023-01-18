@@ -1,0 +1,26 @@
+<div class="my-container mx-auto">
+  <div
+    class="mb-4 my-shadow my-rounded-corner overflow-hidden"
+    *ngFor="let suggestedProduct of suggestedProducts"
+  >
+    <div class="product-baner position-relative">
+      <!-- <button
+        type="button"
+        class="btn btn-outline-light btn-lg"
+        routerLink="/products"
+      >
+        Shop now
+      </button> -->
+      <img
+        src="../../assets/Images/{{ suggestedProduct.banerimage }}"
+        class="w-100"
+      />
+    </div>
+    <div class="product-list py-5">
+      <app-suggested-product
+      [category]="suggestedProduct.category"
+    ></app-suggested-product>
+    <app-list></app-list>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="form">
+        <div nz-row>
+            <div class="form-group" nz-col nzSpan="12">
+                <label>User name</label>
+                <input class="col-10 form-control" nz-input type="text" [(ngModel)]="user.username">
+            </div>
+            <div class="form-group" nz-col nzSpan="12">
+                <label>Full name</label>
+                <input class="col-8 form-control" nz-input type="text" [(ngModel)]="user.fullName">
+            </div>
+            <div class="form-group" nz-col nzSpan="12">
+                <label>Email</label>
+                <input class="col-8 form-control" nz-input type="email" [(ngModel)]="user.email">
+            </div>
+            <div class="form-group" nz-col nzSpan="12">
+                <label>Phone</label>
+                <input class="col-8 form-control" nz-input type="text" [(ngModel)]="user.phone">
+            </div>
+            <div class="form-group" nz-col nzSpan="12">
+                <label>Address</label>
+                <input class="col-8 form-control" nz-input type="text" [(ngModel)]="user.address">
+            </div>
+        </div>
+        
+        <div class="form-btn" nz-row>
+            <button class="btn btn-primary" (click)="save(user)">Save</button>
+            <button class="btn btn-danger" (click)="back()">Back</button>
+        </div>
+
+    </div>
+</div>
